@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Verdana&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Verdana", sans-serif;
+}
+
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://images.unsplash.com/photo-1592011432621-f7f576f44484?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80")
+      no-repeat;
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+}
+
+.logo {
+  color: #ff3c19;
+  display: flex;
+  align-items: center;
+  margin: 1.3em;
+  font-size: 1.2em;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  margin: 1.1.em;
+}
+
+.nav li {
+  list-style: none;
+}
+
+.nav li a {
+  color: #ff3c19;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  margin: 1.1em;
+  padding: 0.5em;
+}
+
+.nav li a:hover {
+  color: #a6ff52;
+}
+
+header {
+  color: #a6ff52;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 250px auto;
+}
+
+h1 {
+  font-weight: lighter;
+  letter-spacing: 2px;
+  word-spacing: 3px;
+}
+
+P {
+  color: #ff3c19;
+  font-size: 1.2em;
+  word-spacing: 3px;
+}
+
+button {
+  margin-top: 1.2em;
+  background-color: #a6ff524d;
+  color: #fff;
+  padding: 12px 50px;
+  font-size: 1.1em;
+  border: none;
+  letter-spacing: 2px;
+  word-spacing: 3px;
+  border-radius: 25px;
+  transition: all 0.5s ease;
+}
+
+button:hover {
+  background: #ff3b1957;
+  transform: translateY(10px);
+}
